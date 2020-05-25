@@ -1,0 +1,406 @@
+body{
+	background-color: white;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+
+header{
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main{
+	margin-left: auto;
+	margin-right: auto;
+	width:80%;
+}
+
+footer{
+	background-color: #ECECEC;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin-top: 50px;
+}
+
+.logo{
+	width:300px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: -25px;
+}
+
+ul{
+	text-align: center;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;	
+	font-size: 18px;
+}
+
+li {
+	display: inline-block;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    text-decoration: underline;
+	text-decoration-color: #ECCCCD;
+}
+
+.active{
+	text-decoration: underline;
+	text-decoration-color: #E9BDBE;
+}
+
+.hastag{
+	text-align: center;
+	font-size: 15px;
+}
+
+.divSMicon{
+	text-align: center;
+	margin-top: -5px;
+	margin-bottom: 30px;
+}
+
+.SMicon{
+	width:35px;
+	height: auto;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.address{
+	text-align: center;
+	font-size: 15px;
+}
+
+.telmail{
+	text-align: center;
+	font-size: 15px;
+	margin-top: -15px;
+}
+
+.crights{
+	text-align: center;
+	font-size: 11px;
+	color:#707070;
+	margin-top: 30px;
+}
+
+.divhomegallery{
+	text-align: center;
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+
+.homegallery, .aboutgallery, .workgallery{
+   width: 220px;
+   padding:10px;
+   margin-left:auto;
+   margin-right:auto;
+   transition: 1s;      
+}
+
+.homegallery:hover, .aboutgallery:hover, .workgallery:hover{
+    transform: scale(1.1);
+}
+
+.title{
+	font-size:18px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.paragraph{
+	font-size: 15px;
+	color: #707070;
+}
+
+.list{
+	text-align: center;
+}
+
+.divbutton{
+	text-align: center;
+}
+
+button{
+	border: 2px solid #E9BDBE;
+	padding: 10px 5px 10px 5px;
+	background-color: white;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+	text-decoration: none;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.team{
+	display: inline-block;
+	text-align: center;
+}
+
+.teamt{
+	color: #707070;
+}
+
+.center{
+	text-align: center;
+}
+
+.top{
+	margin-top:15px;
+}
+
+.work{
+	width: 290px;
+	background-color: #ECECEC;
+	display: inline-block;
+	margin:25px 10px 0px 10px;
+	padding: 5px 10px 15px 10px;
+}
+
+.casetitle{
+	margin-top: 50px;
+	margin-bottom: -5px;
+}
+
+.workparagraph{
+	text-align: left;
+}
+
+.clients{
+	height:70px;
+	width: auto;
+	margin: 5px;	
+}
+
+.giftcardstitle{
+	margin-top: 0px;
+	margin-bottom: -5px;
+}
+
+.divSMiconcontact{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.SMiconcontact{
+	width:50px;
+	height: auto;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+iframe{
+	width:400px;
+	height:400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+@media all and (max-width:850px){
+	header{
+		width:90%;
+	}
+	
+	.display{
+		display: none;
+	}
+	
+	.topnav {
+		overflow: hidden;
+		position: relative;
+		font-size: 15px;
+	}
+
+	.topnav #myLinks {
+	  	display: none;
+	}
+
+	.topnav a {
+		color: black;
+		padding: 14px 25px;
+		text-decoration: none;
+		display: block;
+	}
+
+	.topnav a.icon {
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+		font-size: 20px;
+		color: black;
+		padding: 6.5px 25px;
+	}
+
+	.active {
+		border-bottom: 1px solid #E9BDBE;
+	}
+	
+	.hastag, .address, .telmail{
+		font-size: 13px;
+	}
+	
+	.crights{
+		font-size: 9px;
+	}
+	
+	.homegallery{
+	   width: 150px;    
+	}
+	
+	.title{
+		font-size:15px;
+	}
+
+	.paragraph{
+		font-size: 13px;
+	}
+	
+	.clients{
+		height:50px;
+		width: auto;
+		margin: 5px;	
+	}
+	
+	iframe{
+		width:350px;
+		height:350px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+@media all and (max-width:500px){
+	.logo{
+		width:200px;
+	}
+	
+	main{
+		width: 90%;
+	}
+	
+	.homegallery{
+	   width: 95px;    
+	}
+	
+	button{
+		font-size: 13px;
+	}
+	
+	.aboutgallery{
+		width:170px;
+	}
+	
+	.work{
+		width: 220px;
+		background-color: #ECECEC;
+		display: inline-block;
+		margin:25px 10px 0px 10px;
+		padding: 5px 10px 15px 10px;
+	}
+	
+	.workgallery{
+		width:115px;
+	}
+	
+	.clients{
+		height:30px;
+		width: auto;
+		margin: 5px;	
+	}
+	
+	.contact{
+		font-size:13px;
+	}
+	
+	iframe{
+		width:270px;
+		height:270px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media all and (max-width:330px){
+	.work{
+		width: 190px;
+		background-color: #ECECEC;
+		display: inline-block;
+		margin:25px 10px 0px 10px;
+		padding: 5px 10px 15px 10px;
+	}
+	
+	.contact{
+		font-size:12px;
+	}
+	
+	iframe{
+		width:240px;
+		height:240px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media all and (max-width:300px){
+	.logo{
+		width:180px;
+	}
+	
+	.hastag, .address, .telmail{
+		font-size: 11px;
+	}
+	
+	.telmail{
+		margin-top: -10px;
+	}
+	
+	.homegallery{
+		width:85px;
+	}
+	
+	.work{
+		width: 170px;
+		background-color: #ECECEC;
+		display: inline-block;
+		margin:25px 10px 0px 10px;
+		padding: 5px 10px 15px 10px;
+	}
+	
+	iframe{
+		width:220px;
+		height:220px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+
+@media all and (min-width:851px){
+	.topnav{
+		display: none;
+	}
+}
